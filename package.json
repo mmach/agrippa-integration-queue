@@ -1,0 +1,26 @@
+{
+  "name": "agrippa-integration-queue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.5",
+    "async-redis": "^1.1.7",
+    "azure-storage": "^2.10.3",
+    "crawler": "^1.2.1",
+    "query-string": "^6.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmach/agrippa-integration-queue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmach/agrippa-integration-queue/issues"
+  },
+  "homepage": "https://github.com/mmach/agrippa-integration-queue#readme"
+}
