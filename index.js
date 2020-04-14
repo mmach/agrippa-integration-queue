@@ -48,7 +48,7 @@ amqp.connect(CONN_URL, async function (error0, connection) {
 
 
                 await new Promise((res, rej) => {
-                    queueSvc.createMessage('crawler-product-queue', JSON.stringify(obj), function (error, results, response) {
+                    queueSvc.createMessage('crawler-product-queue', obj, function (error, results, response) {
                         if (!error) {
                             // Message inserted
                             res()
